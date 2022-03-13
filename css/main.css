@@ -30,7 +30,7 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn + strong {
+p + strong {
   color: #fff;
 }
 
@@ -42,12 +42,16 @@ ol li:last-child {
   color: #2aa198;
 }
 
-ol li:nth-child(odd) {
+.types > li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-ol li:nth-child(even) {
+.types > li:nth-child(even) {
   background-color: #586e75;
+}
+
+.types > li:nth-child(3n) {
+  background-color: #d04b16;
 }
 
 a:not(.no-highlight) {
@@ -60,10 +64,6 @@ a:not(.no-highlight) {
 
 #contents, #favs, #facts, #types {
   color: #93a1a1;
-}
-
-.types > li:nth-child(3) {
-  background-color: #d04b16;
 }
 
 footer {
